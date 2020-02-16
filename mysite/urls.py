@@ -18,7 +18,8 @@ from django.urls import path, include
 from login import views as login_views
 
 urlpatterns = [
-    path('polls/', include('polls.urls')),
-    path('admin/', admin.site.urls),
-    path('index/', login_views.index)
+    path("polls/", include("polls.urls")),
+    path("api/", include("quickstart.urls")),
+    path("admin/", admin.site.urls),
+    path("index/", login_views.index),
 ]
