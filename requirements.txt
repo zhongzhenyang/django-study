@@ -4,7 +4,7 @@ backcall==0.1.0
 black==19.10b0
 Click==7.0
 decorator==4.4.0
-Django==2.2.10
+Django==2.2.20
 django-extensions==2.2.8
 djangorestframework==3.10.3
 entrypoints==0.3
